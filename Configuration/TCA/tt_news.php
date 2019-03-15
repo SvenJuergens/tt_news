@@ -141,6 +141,7 @@ return [
                 ],
                 'fallbackCharacter' => '-',
                 'eval' => 'uniqueInPid',
+                'prependSlash' => true,
             ],
         ],
         'ext_url' => [
