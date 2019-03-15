@@ -14,6 +14,7 @@ CREATE TABLE tt_news (
   endtime int(11) unsigned DEFAULT '0' NOT NULL,
   fe_group varchar(100) DEFAULT '0' NOT NULL,
   title text,
+  slug varchar(2048),
   datetime int(11) unsigned DEFAULT '0' NOT NULL,
   image text,
   imagecaption text,
