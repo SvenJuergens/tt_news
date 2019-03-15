@@ -134,7 +134,6 @@ return [
                 'generatorOptions' => [
                     'fields' => ['title'],
                     'fieldSeparator' => '/',
-                    'prefixParentPageSlug' => true,
                     'replacements' => [
                         '/' => '',
                     ],
